@@ -7,4 +7,6 @@ public class BookDTO {
     private Double price;
     private String  resume;
 
+    public static void builder() {
+    }
 }
