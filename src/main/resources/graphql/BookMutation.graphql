@@ -1,0 +1,13 @@
+
+input BookInput {
+    titre: String
+    publisher: String
+    datePublication: String
+    price: Float
+    resume: String
+}
+
+type Mutation {
+    saveBook(book: BookInput): Book
+    deleteBook(id_Book: ID): Boolean
+}
